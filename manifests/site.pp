@@ -77,7 +77,8 @@ node default {
     [
       'ack',
       'findutils',
-      'gnu-tar'
+      'gnu-tar',
+      'bash-completion'
     ]:
   }
 
@@ -85,4 +86,29 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+  # Extra packages from the Puppetfile.
+  include adium
+  include iterm2::stable
+  include skype
+  include dropbox
+  include tmux
+  class { 'intellij':
+    edition => 'community',
+  }
+  include chrome
+  include sublime_text_2
+  include alfred
+  include xquartz
+  include rdio
+  include istatmenus3
+  include graphviz
+  include caffeine
+  include colloquy
+  include airfoil
+  include virtualbox
+  include vagrant
+  include pkgconfig
+  include swig
+  include pcre
 }

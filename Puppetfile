@@ -33,3 +33,27 @@ github "sudo",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+github "adium",    "1.0.1"
+github "iterm2",   "1.0.2"
+github "skype",    "1.0.2"
+github "dropbox",  "1.1.0"
+github "tmux",     "1.0.1"
+github "intellij", "1.1.2"
+github "chrome",   "1.1.0"
+github "sublime_text_2",   "1.1.0"
+github "alfred",   "1.0.1"
+github "xquartz",  "1.0.0"
+github "rdio",     "1.0.0"
+github "istatmenus3",      "1.0.0"
+github "graphviz", "1.0.0"
+github "caffeine", "1.0.0"
+github "colloquy", "1.0.0"
+github "airfoil",  "0.0.1"
+github "virtualbox", "1.0.1"
+github "vagrant",  "2.0.2"
+github "pkgconfig", "1.0.0"
+github "swig", "1.0.0"
+github "pcre", "1.0.0"
+
+
+
