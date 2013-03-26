@@ -84,6 +84,11 @@ GITHUBTARBALL
     iterm2 (1.0.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-macvim
+  specs:
+    macvim (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.1.0)
@@ -164,6 +169,11 @@ GITHUBTARBALL
     inifile (0.9.0)
 
 GITHUBTARBALL
+  remote: phase2/puppet-moom
+  specs:
+    moom (1.0.1)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
     stdlib (3.0.0)
@@ -187,6 +197,8 @@ DEPENDENCIES
   intellij (= 1.1.2)
   istatmenus3 (= 1.0.0)
   iterm2 (= 1.0.2)
+  macvim (= 1.0.0)
+  moom (= 1.0.1)
   nginx (= 1.1.0)
   nodejs (= 1.0.0)
   nvm (= 1.0.0)

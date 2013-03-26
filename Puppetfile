@@ -54,6 +54,5 @@ github "vagrant",  "2.0.2"
 github "pkgconfig", "1.0.0"
 github "swig", "1.0.0"
 github "pcre", "1.0.0"
-
-
-
+github "macvim", "1.0.0"
+github "moom", "1.0.1", :repo => "phase2/puppet-moom"
