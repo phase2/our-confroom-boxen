@@ -79,6 +79,7 @@ node default {
   include skype
   include dropbox
   include chrome
+  include p2fonts
   include iwork
   include msoffice
   include alfred
@@ -119,4 +120,9 @@ node default {
       edition => 'community',
     }
   }
+  
+  if $analyst == 'true' {
+    include omnigraffle::pro
+  }
+  
 }
