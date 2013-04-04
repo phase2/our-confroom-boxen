@@ -61,7 +61,7 @@ github "omnigraffle", "1.0.1", :repo => "phase2/puppet-omnigraffle"
 github "lastpass",    "1.0.0", :repo => "dieterdemeyer/puppet-lastpass"
 
 # Some local, private modules
-mod    "iwork",     "1.0.0", :git => "git@bitbucket.org:phase2tech/puppet-iwork.git"
-mod    "msoffice",  "1.0.0", :git => "git@bitbucket.org:phase2tech/puppet-msoffice.git"
-mod    "p2fonts", :git => "git@bitbucket.org:phase2tech/puppet-p2fonts.git"
+mod    "iwork",      :git => "git@bitbucket.org:phase2tech/puppet-iwork.git"
+mod    "msoffice",   :git => "git@bitbucket.org:phase2tech/puppet-msoffice.git"
+mod    "p2fonts",    :git => "git@bitbucket.org:phase2tech/puppet-p2fonts.git"
 
