@@ -57,11 +57,12 @@ github "pcre",        "1.0.0"
 github "macvim",      "1.0.0"
 github "moom",        "1.0.1", :repo => "phase2/puppet-moom"
 github "phpstorm",    "1.0.2", :repo => "phase2/puppet-phpstorm"
-github "omnigraffle", "1.0.1", :repo => "phase2/puppet-omnigraffle"
 github "lastpass",    "1.0.0", :repo => "dieterdemeyer/puppet-lastpass"
 
 # Some local, private modules
-mod    "iwork",      :git => "git@bitbucket.org:phase2tech/puppet-iwork.git"
-mod    "msoffice",   :git => "git@bitbucket.org:phase2tech/puppet-msoffice.git"
-mod    "p2fonts",    :git => "git@bitbucket.org:phase2tech/puppet-p2fonts.git"
+mod    "iwork",       :git => "git@bitbucket.org:phase2tech/puppet-iwork.git", :ref => "1.0.2"
+mod    "msoffice",    :git => "git@bitbucket.org:phase2tech/puppet-msoffice.git", :ref => "1.0.1"
+mod    "omnigraffle", :git => "git@bitbucket.org:phase2tech/puppet-omnigraffle.git", :ref => "1.0.2"
+mod    "p2fonts",     :git => "git@bitbucket.org:phase2tech/puppet-p2fonts.git", :ref => "1.0.1"
+
 
