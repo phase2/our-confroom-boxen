@@ -58,6 +58,7 @@ github "macvim",      "1.0.0"
 github "moom",        "1.0.1", :repo => "phase2/puppet-moom"
 github "phpstorm",    "1.0.2", :repo => "phase2/puppet-phpstorm"
 github "lastpass",    "1.0.0", :repo => "dieterdemeyer/puppet-lastpass"
+github "limechat",    "1.0.0", :repo => "dieterdemeyer/puppet-limechat"
 
 # Some local, private modules
 mod    "iwork",       :git => "git@bitbucket.org:phase2tech/puppet-iwork.git", :ref => "1.0.2"
