@@ -75,6 +75,7 @@ node default {
   }
 
   # Extra packages from the Puppetfile.
+  include p2osx
   include adium
   include skype
   include dropbox
