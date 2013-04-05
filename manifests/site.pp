@@ -86,7 +86,6 @@ node default {
   include alfred
   include lastpass
   include caffeine
-  include colloquy
   include rdio
   include airfoil
   include moom
