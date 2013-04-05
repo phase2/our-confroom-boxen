@@ -59,17 +59,6 @@ node default {
     fail('Please enable full disk encryption and try again')
   }
 
-  # node versions
-  include nodejs::0-4
-  include nodejs::0-6
-  include nodejs::0-8
-
-  # default ruby versions
-  include ruby::1_8_7
-  include ruby::1_9_2
-  include ruby::1_9_3
-  include ruby::2_0_0
-
   # common, useful packages
   package {
     [
@@ -86,29 +75,54 @@ node default {
   }
 
   # Extra packages from the Puppetfile.
+  include p2osx
   include adium
-  include iterm2::stable
   include skype
   include dropbox
-  include tmux
-  class { 'intellij':
-    edition => 'community',
-  }
   include chrome
-  include sublime_text_2
+  include p2fonts
+  include iwork
+  include msoffice
   include alfred
-  include xquartz
-  include rdio
-  include istatmenus3
-  include graphviz
+  include lastpass
   include caffeine
-  include colloquy
+  include rdio
   include airfoil
-  include virtualbox
-  include vagrant
-  include pkgconfig
-  include swig
-  include pcre
-  include macvim
   include moom
+
+  if $developer == 'true' {
+    # node versions
+    include nodejs::0-4
+    include nodejs::0-6
+    include nodejs::0-8
+
+    # default ruby versions
+    include ruby::1_8_7
+    include ruby::1_9_2
+    include ruby::1_9_3
+    include ruby::2_0_0
+
+    include iterm2::stable
+    include tmux
+    include sublime_text_2
+    include phpstorm
+    include xquartz
+    include graphviz
+    include istatmenus3
+    include virtualbox
+    include vagrant
+    include pkgconfig
+    include swig
+    include pcre
+    include macvim
+
+    class { 'intellij':
+      edition => 'community',
+    }
+  }
+  
+  if $analyst == 'true' {
+    include omnigraffle::pro
+  }
+  
 }
