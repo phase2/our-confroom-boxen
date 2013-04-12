@@ -1,3 +1,38 @@
+GIT
+  remote: git@bitbucket.org:phase2tech/puppet-iwork.git
+  ref: 1.0.2
+  sha: 75d01e86fd95c7ee9b84531de5e3ba415977fd56
+  specs:
+    iwork (0.0.1)
+
+GIT
+  remote: git@bitbucket.org:phase2tech/puppet-msoffice.git
+  ref: 1.0.1
+  sha: 771f162118a68d02e4356f6c59b4e2d3ec2efc41
+  specs:
+    msoffice (0.0.1)
+
+GIT
+  remote: git@bitbucket.org:phase2tech/puppet-omnigraffle.git
+  ref: 1.0.2
+  sha: 950190d5b5d0b6064b3c8ea31af26931839de686
+  specs:
+    omnigraffle (0.0.1)
+
+GIT
+  remote: git@bitbucket.org:phase2tech/puppet-p2fonts.git
+  ref: 1.0.1
+  sha: 05803716cecf127217e6d01a12adcc934a34184d
+  specs:
+    p2fonts (0.0.1)
+
+GIT
+  remote: git@bitbucket.org:phase2tech/puppet-p2osx.git
+  ref: master
+  sha: 00e865196fd4231a0a5e4075f647450aed95a9a9
+  specs:
+    p2osx (0.0.1)
+
 GITHUBTARBALL
   remote: boxen/puppet-adium
   specs:
@@ -169,9 +204,24 @@ GITHUBTARBALL
     inifile (0.9.0)
 
 GITHUBTARBALL
+  remote: dieterdemeyer/puppet-lastpass
+  specs:
+    lastpass (1.0.0)
+
+GITHUBTARBALL
+  remote: dieterdemeyer/puppet-limechat
+  specs:
+    limechat (1.0.0)
+
+GITHUBTARBALL
   remote: phase2/puppet-moom
   specs:
     moom (1.0.1)
+
+GITHUBTARBALL
+  remote: phase2/puppet-phpstorm
+  specs:
+    phpstorm (1.0.2)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
@@ -197,12 +247,20 @@ DEPENDENCIES
   intellij (= 1.1.2)
   istatmenus3 (= 1.0.0)
   iterm2 (= 1.0.2)
+  iwork (>= 0)
+  lastpass (= 1.0.0)
+  limechat (= 1.0.0)
   macvim (= 1.0.0)
   moom (= 1.0.1)
+  msoffice (>= 0)
   nginx (= 1.1.0)
   nodejs (= 1.0.0)
   nvm (= 1.0.0)
+  omnigraffle (>= 0)
+  p2fonts (>= 0)
+  p2osx (>= 0)
   pcre (= 1.0.0)
+  phpstorm (= 1.0.2)
   pkgconfig (= 1.0.0)
   rdio (= 1.0.0)
   ruby (= 3.1.0)
