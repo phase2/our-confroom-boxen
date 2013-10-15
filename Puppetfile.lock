@@ -97,6 +97,11 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: febbraro/puppet-air_server
+  specs:
+    air_server (1.0.1)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.0.0)
@@ -108,6 +113,7 @@ GITHUBTARBALL
 
 DEPENDENCIES
   adium (= 1.2.0)
+  air_server (= 1.0.1)
   alfred (= 1.1.5)
   autoconf (= 1.0.0)
   boxen (= 3.0.2)
