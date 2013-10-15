@@ -36,6 +36,7 @@ github "dropbox",  "1.1.1"
 github "chrome",   "1.1.1"
 github "alfred",   "1.1.5"
 github "caffeine", "1.0.0"
+github "air_server", "1.0.1", :repo => "febbraro/puppet-air_server"
 
 # Some local, private modules
 mod    "iwork",       :git => "git@bitbucket.org:phase2tech/puppet-iwork.git", :ref => "1.0.2"
