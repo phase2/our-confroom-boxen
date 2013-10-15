@@ -13,13 +13,6 @@ GIT
     msoffice (0.0.1)
 
 GIT
-  remote: git@bitbucket.org:phase2tech/puppet-omnigraffle.git
-  ref: 1.0.2
-  sha: 950190d5b5d0b6064b3c8ea31af26931839de686
-  specs:
-    omnigraffle (0.0.1)
-
-GIT
   remote: git@bitbucket.org:phase2tech/puppet-p2fonts.git
   ref: 1.0.1
   sha: 05803716cecf127217e6d01a12adcc934a34184d
@@ -36,22 +29,22 @@ GIT
 GITHUBTARBALL
   remote: boxen/puppet-adium
   specs:
-    adium (1.0.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-airfoil
-  specs:
-    airfoil (0.0.1)
+    adium (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-alfred
   specs:
-    alfred (1.0.1)
+    alfred (1.1.5)
+
+GITHUBTARBALL
+  remote: boxen/puppet-autoconf
+  specs:
+    autoconf (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (1.2.0)
+    boxen (3.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-caffeine
@@ -61,112 +54,42 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
-    chrome (1.1.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-colloquy
-  specs:
-    colloquy (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-dnsmasq
-  specs:
-    dnsmasq (1.0.0)
+    chrome (1.1.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-dropbox
   specs:
-    dropbox (1.1.0)
+    dropbox (1.1.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
-    gcc (1.0.0)
+    gcc (2.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
-    git (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-graphviz
-  specs:
-    graphviz (1.0.0)
+    git (1.2.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.1.2)
+    homebrew (1.4.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
-    hub (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-intellij
-  specs:
-    intellij (1.1.2)
-
-GITHUBTARBALL
-  remote: boxen/puppet-istatmenus3
-  specs:
-    istatmenus3 (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-iterm2
-  specs:
-    iterm2 (1.0.2)
-
-GITHUBTARBALL
-  remote: boxen/puppet-macvim
-  specs:
-    macvim (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-nginx
-  specs:
-    nginx (1.1.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-nodejs
-  specs:
-    nodejs (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-nvm
-  specs:
-    nvm (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-pcre
-  specs:
-    pcre (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-pkgconfig
-  specs:
-    pkgconfig (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-rdio
-  specs:
-    rdio (1.0.0)
+    hub (1.0.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (3.1.0)
+    ruby (6.3.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-skype
   specs:
-    skype (1.0.2)
-
-GITHUBTARBALL
-  remote: boxen/puppet-sublime_text_2
-  specs:
-    sublime_text_2 (1.1.0)
+    skype (1.0.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
@@ -174,103 +97,34 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-swig
+  remote: puppetlabs/puppetlabs-inifile
   specs:
-    swig (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-tmux
-  specs:
-    tmux (1.0.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-vagrant
-  specs:
-    vagrant (2.0.2)
-
-GITHUBTARBALL
-  remote: boxen/puppet-virtualbox
-  specs:
-    virtualbox (1.0.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-xquartz
-  specs:
-    xquartz (1.0.0)
-
-GITHUBTARBALL
-  remote: cprice-puppet/puppetlabs-inifile
-  specs:
-    inifile (0.9.0)
-
-GITHUBTARBALL
-  remote: dieterdemeyer/puppet-lastpass
-  specs:
-    lastpass (1.0.0)
-
-GITHUBTARBALL
-  remote: dieterdemeyer/puppet-limechat
-  specs:
-    limechat (1.0.0)
-
-GITHUBTARBALL
-  remote: phase2/puppet-moom
-  specs:
-    moom (1.0.1)
-
-GITHUBTARBALL
-  remote: phase2/puppet-phpstorm
-  specs:
-    phpstorm (1.0.2)
+    inifile (1.0.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
-    stdlib (3.0.0)
+    stdlib (4.1.0)
 
 DEPENDENCIES
-  adium (= 1.0.1)
-  airfoil (= 0.0.1)
-  alfred (= 1.0.1)
-  boxen (= 1.2.0)
+  adium (= 1.2.0)
+  alfred (= 1.1.5)
+  autoconf (= 1.0.0)
+  boxen (= 3.0.2)
   caffeine (= 1.0.0)
-  chrome (= 1.1.0)
-  colloquy (= 1.0.0)
-  dnsmasq (= 1.0.0)
-  dropbox (= 1.1.0)
-  gcc (= 1.0.0)
-  git (= 1.0.0)
-  graphviz (= 1.0.0)
-  homebrew (= 1.1.2)
-  hub (= 1.0.0)
-  inifile (= 0.9.0)
-  intellij (= 1.1.2)
-  istatmenus3 (= 1.0.0)
-  iterm2 (= 1.0.2)
+  chrome (= 1.1.1)
+  dropbox (= 1.1.1)
+  gcc (= 2.0.1)
+  git (= 1.2.5)
+  homebrew (= 1.4.1)
+  hub (= 1.0.3)
+  inifile (= 1.0.0)
   iwork (>= 0)
-  lastpass (= 1.0.0)
-  limechat (= 1.0.0)
-  macvim (= 1.0.0)
-  moom (= 1.0.1)
   msoffice (>= 0)
-  nginx (= 1.1.0)
-  nodejs (= 1.0.0)
-  nvm (= 1.0.0)
-  omnigraffle (>= 0)
   p2fonts (>= 0)
   p2osx (>= 0)
-  pcre (= 1.0.0)
-  phpstorm (= 1.0.2)
-  pkgconfig (= 1.0.0)
-  rdio (= 1.0.0)
-  ruby (= 3.1.0)
-  skype (= 1.0.2)
-  stdlib (= 3.0.0)
-  sublime_text_2 (= 1.1.0)
+  ruby (= 6.3.4)
+  skype (= 1.0.6)
+  stdlib (= 4.1.0)
   sudo (= 1.0.0)
-  swig (= 1.0.0)
-  tmux (= 1.0.1)
-  vagrant (= 2.0.2)
-  virtualbox (= 1.0.1)
-  xquartz (= 1.0.0)
 
