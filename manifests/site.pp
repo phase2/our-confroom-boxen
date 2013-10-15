@@ -52,7 +52,6 @@ node default {
   # core modules, needed for most things
   include git
   include hub
-  include nvm
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
@@ -78,51 +77,10 @@ node default {
   include p2osx
   include adium
   include skype
-  include dropbox
   include chrome
   include p2fonts
   include iwork
   include msoffice
   include alfred
-  include lastpass
   include caffeine
-  include rdio
-  include airfoil
-  include moom
-
-  if $developer == 'true' {
-    # node versions
-    include nodejs::0-4
-    include nodejs::0-6
-    include nodejs::0-8
-
-    # default ruby versions
-    include ruby::1_8_7
-    include ruby::1_9_2
-    include ruby::1_9_3
-    include ruby::2_0_0
-
-    include iterm2::stable
-    include tmux
-    include sublime_text_2
-    include phpstorm
-    include xquartz
-    include graphviz
-    include istatmenus3
-    include virtualbox
-    include vagrant
-    include pkgconfig
-    include swig
-    include pcre
-    include macvim
-
-    class { 'intellij':
-      edition => 'community',
-    }
-  }
-  
-  if $analyst == 'true' {
-    include omnigraffle::pro
-  }
-  
 }
