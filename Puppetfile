@@ -40,9 +40,10 @@ github "air_server", "1.0.1", :repo => "febbraro/puppet-air_server"
 github "googlevoiceandvideoplugin", "1.0.0", :repo => "phase2/puppet-googlevoiceandvideoplugin"
 
 # Some local, private modules
-mod    "iwork",       :git => "git@bitbucket.org:phase2tech/puppet-iwork.git", :ref => "1.0.2"
-mod    "msoffice",    :git => "git@bitbucket.org:phase2tech/puppet-msoffice.git", :ref => "1.0.1"
-mod    "p2fonts",     :git => "git@bitbucket.org:phase2tech/puppet-p2fonts.git", :ref => "1.0.1"
-mod    "p2osx",       :git => "git@bitbucket.org:phase2tech/puppet-p2osx.git", :ref => "master"
+mod    "iwork",     :git => "git@bitbucket.org:phase2tech/puppet-iwork.git", :ref => "1.0.2"
+mod    "msoffice",  :git => "git@bitbucket.org:phase2tech/puppet-msoffice.git", :ref => "1.0.1"
+mod    "p2fonts",   :git => "git@bitbucket.org:phase2tech/puppet-p2fonts.git", :ref => "1.0.1"
+mod    "p2osx",     :git => "git@bitbucket.org:phase2tech/puppet-p2osx.git", :ref => "master"
+mod    "purge_downloads", :git => "git@bitbucket.org:phase2tech/puppet-purge_downloads.git", :ref => "master"
 
 
