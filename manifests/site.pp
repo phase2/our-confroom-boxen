@@ -83,7 +83,6 @@ node default {
   }
 
   # Extra packages from the Puppetfile.
-  include p2osx
   include adium
   include skype
   include chrome
@@ -95,4 +94,6 @@ node default {
   include air_server
   include purge_downloads
   include googlevoiceandvideoplugin
+  include confroom_osx
+
 }
