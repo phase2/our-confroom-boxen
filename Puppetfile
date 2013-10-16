@@ -30,13 +30,14 @@ github "sudo",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-github "adium",    "1.2.0"
-github "skype",    "1.0.6"
-github "dropbox",  "1.1.1"
-github "chrome",   "1.1.1"
-github "alfred",   "1.1.5"
-github "caffeine", "1.0.0"
+github "adium",      "1.2.0"
+github "skype",      "1.0.6"
+github "dropbox",    "1.1.1"
+github "chrome",     "1.1.1"
+github "alfred",     "1.1.5"
+github "caffeine",   "1.0.0"
 github "air_server", "1.0.1", :repo => "febbraro/puppet-air_server"
+github "googlevoiceandvideoplugin", "1.0.0", :repo => "phase2/puppet-googlevoiceandvideoplugin"
 
 # Some local, private modules
 mod    "iwork",       :git => "git@bitbucket.org:phase2tech/puppet-iwork.git", :ref => "1.0.2"
