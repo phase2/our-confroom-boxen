@@ -92,4 +92,7 @@ node default {
   include msoffice
   include alfred
   include caffeine
+  include air_server
+  include purge_downloads
+  include googlevoiceandvideoplugin
 }
