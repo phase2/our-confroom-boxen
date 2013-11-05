@@ -48,5 +48,5 @@ mod    "msoffice",  :git => "git@bitbucket.org:phase2tech/puppet-msoffice.git", 
 mod    "p2fonts",   :git => "git@bitbucket.org:phase2tech/puppet-p2fonts.git", :ref => "1.0.1"
 mod    "confroom_osx",    :git => "git@bitbucket.org:phase2tech/puppet-confroom_osx.git", :ref => "master"
 mod    "purge_downloads", :git => "git@bitbucket.org:phase2tech/puppet-purge_downloads.git", :ref => "master"
-mod    "air_server", :git => "git@bitbucket.org:phase2tech/puppet-air_server.git", :ref => "1.0.1"
+mod    "air_server", :git => "git@bitbucket.org:phase2tech/puppet-air_server.git", :ref => "1.0.2"
 
