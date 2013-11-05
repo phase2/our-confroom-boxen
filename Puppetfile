@@ -40,7 +40,6 @@ github "chrome",     "1.1.1"
 github "alfred",     "1.1.5"
 github "caffeine",   "1.0.0"
 github "googlevoiceandvideoplugin", "1.0.0", :repo => "phase2/puppet-googlevoiceandvideoplugin"
-github "property_list_key", "0.1.0", :repo => "glarizza/puppet-property_list_key"
 
 # Some local, private modules
 mod    "iwork",     :git => "git@bitbucket.org:phase2tech/puppet-iwork.git", :ref => "1.0.2"
